@@ -12,11 +12,14 @@
 32
 """
 
-class_1 = int(100)
-class_2 = int(100)
-class_3 = int(100)
+class_1 = int(21)
+class_2 = int(21)
+class_3 = int(20)
+desk_1 = (class_1 + 1)//2
+desk_2 = (class_2 + 1)//2
+desk_3 = (class_3 + 1)//2
 
-school_desk = (class_1 + class_2 + class_3+1)//2
+school_desk = desk_1+desk_2+desk_3
 print(f'необходимое количество парт : {school_desk}')
 
 
