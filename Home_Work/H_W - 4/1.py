@@ -21,7 +21,7 @@ while i < len_set_2:
     set_user_2.add(temp_input)
     i += 1
 
-union_sets = set_user_1.union(set_user_2)
+union_sets = set_user_1.intersection(set_user_2)
 list_temp = list(union_sets)
 list_temp.sort()
 
